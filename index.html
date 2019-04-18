@@ -18,13 +18,13 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Safward</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=347579958"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=380207208" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4100499633" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=209259995" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=211771961" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- JS includes -->
-  <script src="https://use.typekit.net/ik/PrtaNaGqXFvrc4KG3z0HCrTVbzkSLSoiE345Mtz5IEvfe7IgfFA-rbJPH2jU52MU52BL5Ajk5ejh5esKwhbD5A9aFRJtZcscw2J3wQmKF2FywQ9-sfG0jhBh-ABkdAmziko1-WsGiAJ0-AvCjhBh-ABkdAmziko1-WsGiAJ0-AvCiaiaOcFyic8yScu8daS0Zh8X-YmKOc8zJyB0daszOWFyd1wlZe8DSeUypPGHf57NMyMMeMw6MqGIQWmDZZMgcFDyob9.js" type="text/javascript"></script>
+  <script src="https://use.typekit.net/ik/uyx7pU0y8ocEBwPqki6FsDubsXnEf_rQ65BsMVgqVFIfe7IgfFA-rbJPH2jU52MU52BL5Ajk5ejh5esKwhbD5A9aFRJtZcscw2J3wQmKF2FywQ9-sfG0jhBh-ABkdAmziko1-WsGiAJ0-AvCjhBh-ABkdAmziko1-WsGiAJ0-AvCiaiaOcFyic8yScu8daS0Zh8X-YmKOc8zJyB0daszOWFyd1wlZe8DSeUypPGHf57NMyMMeMw6MqGIQWmDZZMgUN_yob9.js" type="text/javascript"></script>
   <!-- Other scripts -->
   <script type="text/javascript">
    try {Typekit.load();} catch(e) {}
@@ -50,7 +50,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       <img class="block temp_no_img_src" id="u329_img" data-orig-src="images/01%20logo.png?crc=15589863" data-hidpi-src="images/01%20logo_2x.png?crc=3885172462" alt="" width="408" height="175" src="images/blank.gif?crc=4208392903"/>
      </div>
      <div class="clearfix colelem" id="pu2975"><!-- group -->
-      <div class="size_fixed grpelem shared_content" id="u2975" data-content-guid="u2975_content"><!-- custom html -->
+      <div class="size_fixed grpelem shared_content" id="u2975" data-pintopage="page_fluidx" data-content-guid="u2975_content"><!-- custom html -->
        
     <iframe class="actAsDiv" style="width:100%;height:100%;" src="//player.vimeo.com/video/331169087?title=0&amp;byline=0&amp;portrait=0&amp;color=FFFFFF&amp;autoplay=1&amp;loop=1&amp;wmode=transparent" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
@@ -124,7 +124,9 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      </div>
      <div class="colelem shared_content" id="u3118" data-content-guid="u3118_content"><!-- simple frame --></div>
      <img class="colelem temp_no_img_src" id="u828-4" alt="designed by Tove Liu and Zhsuan Yu" width="346" height="22" data-orig-src="images/u828-4.png?crc=469432141" data-hidpi-src="images/u828-4_2x.png?crc=512254202" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
-     <a class="nonblock nontext clearfix colelem shared_content" id="u2471-4" href="https://www.behance.net/safward" target="_blank" data-content-guid="u2471-4_content"><!-- content --><p>&gt; click for more information &lt;</p></a>
+     <div class="browser_width colelem" id="u2471-4-bw">
+      <a class="nonblock nontext clearfix shared_content" id="u2471-4" href="https://www.behance.net/safward" target="_blank" data-content-guid="u2471-4_content"><!-- content --><p>&gt; click for more information &lt;</p></a>
+     </div>
     </div>
    </div>
    <div class="preload_images">
@@ -248,13 +250,15 @@ window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.detectScreenResolution();/* HiDPI screens */
 Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.resizeHeight('.browser_width');/* resize height */
+Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('#pamphletu1995', ['#bp_infinity', '#bp_733'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu1995 */
 Muse.Utils.fullPage('#page');/* 100% height page */
 $('#bp_infinity').one('muse_this_bp_activate', function(){
 $('#u2912').registerPositionScrollEffect([{"speed":[0,0.6],"in":[-Infinity,-164]},{"speed":[0,1],"in":[-164,Infinity]}], $(this)); /* scroll effect */
-$('#u365').registerPositionScrollEffect([{"speed":[0,0.6],"in":[-Infinity,590]},{"speed":[0,1],"in":[590,Infinity]}], $(this)); /* scroll effect */
-$('#u365').registerOpacityScrollEffect([{"fade":250.95,"in":[-Infinity,590],"opacity":0},{"opacity":100,"in":[590,590]},{"fade":512.05,"in":[590,Infinity],"opacity":30}], $(this)); /* scroll effect */
+$('#u365').registerPositionScrollEffect([{"speed":[0,0.6],"in":[-Infinity,451.95]},{"speed":[0,1],"in":[451.95,Infinity]}], $(this)); /* scroll effect */
+$('#u365').registerOpacityScrollEffect([{"fade":250.95,"in":[-Infinity,451.95],"opacity":0},{"opacity":100,"in":[451.95,451.95]},{"fade":512.05,"in":[451.95,Infinity],"opacity":30}], $(this)); /* scroll effect */
 $('#u486-8').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,2520.5]},{"speed":[0,2],"in":[2520.5,Infinity]}], $(this)); /* scroll effect */
 $('#u610').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,2503.5]},{"speed":[0,2],"in":[2503.5,Infinity]}], $(this)); /* scroll effect */
 $('#u414').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,2492.9]},{"speed":[0,2],"in":[2492.9,Infinity]}], $(this)); /* scroll effect */
