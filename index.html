@@ -11,20 +11,20 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.scrolleffects.js", "jquery.museresponsive.js", "require.js", "index.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.watch.js", "jquery.scrolleffects.js", "jquery.museresponsive.js", "require.js", "index.css"], "outOfDate":[]};
 </script>
   
   <link rel="shortcut icon" href="images/favicon.ico?crc=4040925358"/>
   <title>Safward</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=314571582"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4290716586" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=24467907" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=177047406" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=3901168101" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- JS includes -->
-  <script src="https://use.typekit.net/ik/lXOkBZwvfR-tONthvh9QhI5uHShizDo_anMC7NhFUr9fe7IgfFA-rbJPH2jU52MU52BL5Ajk5ejh5esKwhbD5A9aFRJtZcscw2J3wQmKF2FywQ9-sfG0jhBh-ABkdAmziko1-WsGiAJ0-AvCjhBh-ABkdAmziko1-WsGiAJ0-AvCiaiaOcFyic8yScu8daS0Zh8X-YmKOc8zJyB0daszOWFyd1wlZe8DSeUypPGHf57NMyMMeMw6MqGIQWmDZZMgr5Yyob9.js" type="text/javascript"></script>
+  <script src="https://use.typekit.net/ik/RLSKCWaC7QMhKUJu2d8hOKQ7AIAmJyfAPF44c05pfWbfe7IgfFA-rbJPH2jU52MU52BL5Ajk5ejh5esKwhbD5A9aFRJtZcscw2J3wQmKF2FywQ9-sfG0jhBh-ABkdAmziko1-WsGiAJ0-AvCjhBh-ABkdAmziko1-WsGiAJ0-AvCiaiaOcFyic8yScu8daS0Zh8X-YmKOc8zJyB0daszOWFyd1wlZe8DSeUypPGHf57NMyMMeMw6MqGIQWmDZZMgq0Vyob9.js" type="text/javascript"></script>
   <!-- Other scripts -->
   <script type="text/javascript">
    try {Typekit.load();} catch(e) {}
@@ -39,9 +39,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <div class="breakpoint active" id="bp_infinity" data-min-width="734"><!-- responsive breakpoint node -->
    <div class="clearfix" id="page"><!-- group -->
     <div class="clearfix grpelem" id="pu2912"><!-- group -->
-     <div class="browser_width mse_pre_init" id="u2912-bw">
-      <div id="u2912"><!-- simple frame --></div>
-     </div>
+     <div class="mse_pre_init" id="u2912"><!-- simple frame --></div>
      <div class="clip_frame ose_pre_init mse_pre_init" id="u365"><!-- image -->
       <img class="block temp_no_img_src" id="u365_img" data-orig-src="images/02%e4%b8%bb%e5%9c%96.jpg?crc=204918154" alt="" width="1024" height="724" src="images/blank.gif?crc=4208392903"/>
      </div>
@@ -251,7 +249,7 @@ var suppressMissingFileError = false
 k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){f(!0)},5E3):f()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.scrolleffects","jquery.museresponsive"],function(c){var $ = c;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.watch","jquery.scrolleffects","jquery.museresponsive"],function(c){var $ = c;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.detectScreenResolution();/* HiDPI screens */
@@ -262,7 +260,7 @@ Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('#pamphletu1995', ['#bp_infinity', '#bp_733'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu1995 */
 Muse.Utils.fullPage('#page');/* 100% height page */
 $('#bp_infinity').one('muse_this_bp_activate', function(){
-$('#u2912-bw').registerPositionScrollEffect([{"speed":[null,0.6],"in":[-Infinity,-164]},{"speed":[null,1],"in":[-164,Infinity]}], $(this)); /* scroll effect */
+$('#u2912').registerPositionScrollEffect([{"speed":[0,0.6],"in":[-Infinity,-164]},{"speed":[0,1],"in":[-164,Infinity]}], $(this)); /* scroll effect */
 $('#u365').registerPositionScrollEffect([{"speed":[0,0.6],"in":[-Infinity,364.64]},{"speed":[0,1],"in":[364.64,Infinity]}], $(this)); /* scroll effect */
 $('#u365').registerOpacityScrollEffect([{"in":[-Infinity,364.64],"opacity":0,"fade":250.95},{"in":[364.64,364.64],"opacity":100},{"in":[364.64,Infinity],"opacity":30,"fade":512.05}], $(this)); /* scroll effect */
 $('#u486-8').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,2520.5]},{"speed":[0,2],"in":[2520.5,Infinity]}], $(this)); /* scroll effect */
